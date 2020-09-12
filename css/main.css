@@ -18,17 +18,21 @@ body {
 
 .grid-container h1 {
     margin-bottom: 5rem;
+    margin-left: 7rem;
 }
 
-.top-left {
+.top-left,
+.top-right {
     position: absolute;
     top: 8rem;
-    color: white;
+    color: #7f68ae;
     left: 2.3rem;
     font-weight: bold;
     font-size: 9rem;
     font-family: sans-serif;
 }
+
+.top-right {}
 
 #logoText {
     color: #7e65ac;
