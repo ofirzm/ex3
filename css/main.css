@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/BGstars1.jpg");
+    background-image: url("BGstars1.jpg");
     background-size: auto;
     background-repeat: repeat-y;
 }
@@ -16,8 +16,16 @@ body {
     margin-top: -5rem;
 }
 
-/*
-*/
+.top-left {
+    position: absolute;
+    top: 8rem;
+    color: white;
+    left: 2.3rem;
+    font-weight: bold;
+    font-size: 9rem;
+    font-family: sans-serif;
+}
+
 #logoText {
     color: #7e65ac;
     float: right;
@@ -52,6 +60,7 @@ body {
     padding: 10px;
     color: white;
 }
+
 
 .grid-container>div {
     padding: 20px 0;
