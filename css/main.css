@@ -25,19 +25,25 @@ body {
     position: absolute;
     top: 8rem;
     color: #7f68ae;
-    left: 2.3rem;
+    left: 1.3rem;
     font-weight: bold;
     font-size: 9rem;
     font-family: sans-serif;
 }
 
-#firstMovie .top-left {}
+#secondMovie .top-left {
+    margin-left: 58rem;
+    top: 46rem;
+}
 
-#secondMovie .top-left {}
+#thirdMovie .top-left {
+    top: 86rem;
+}
 
-#thirdMovie .top-left {}
-
-#fourdMovie .top-left {}
+#fourdMovie .top-left {
+    top: 127rem;
+    margin-left: 58rem;
+}
 
 #logoText {
     color: #7e65ac;
