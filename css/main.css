@@ -21,16 +21,6 @@ body {
   margin-left: 7rem;
 }
 
-.top-left {
-  position: absolute;
-  top: 8rem;
-  color: #7f68ae;
-  left: 1.3rem;
-  font-weight: bold;
-  font-size: 9rem;
-  font-family: sans-serif;
-}
-
 #secondMovie .top-left {
   margin-left: 58rem;
   top: 46rem;
@@ -127,21 +117,37 @@ p.movieDetail {
 #secondMovie,
 #thirdMovie,
 #fourdMovie {
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center 4rem;
 }
 #firstMovie {
-  background-image: url(/ex3/img/firstMovie.jpg);
+  background-image: url(/ex3/img/firstMovie.png), url(/ex3/img/no1.png);
+  background-repeat: no-repeat;
+  background-size: cover, 6rem;
+  background-blend-mode: overlay;
+  background-position: center 4rem, top left;
+  background-position-y: 4rem, -2rem;
+  background-position-x: 0rem, 0rem;
+  background-blend-mode: overlay;
 }
 #secondMovie {
-  background-image: url(/ex3/img/secondMovie.jpg);
+  background-image: url(/ex3/img/secondMovie.jpg), url(/ex3/img/no2.png);
+  background-repeat: no-repeat;
+  background-size: cover, 6rem;
+  background-blend-mode: overlay;
 }
 #thirdMovie {
-  background-image: url(/ex3/img/thiredMovie.jpg);
+  background-image: url(/ex3/img/thiredMovie.jpg), url(/ex3/img/no3.png);
+  background-repeat: no-repeat;
+  background-size: cover, 6rem;
+  background-blend-mode: overlay;
+  background-position: center 4rem, top left;
+  background-position-y: 4rem, -2rem;
+  background-position-x: 0rem, 0rem;
 }
 #fourdMovie {
-  background-image: url(/ex3/img/fourMovie.jpg);
+  background-image: url(/ex3/img/fourMovie.jpg), url(/ex3/img/no4.png);
+  background-repeat: no-repeat;
+  background-size: cover, 6rem;
+  background-blend-mode: overlay;
 }
 div#firstMovieText {
   margin-left: 3rem;
