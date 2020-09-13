@@ -17,7 +17,7 @@ body {
 }
 
 .grid-container h1 {
-  /* display: inline; */
+  display: inline;
   margin-left: 7rem;
 }
 
