@@ -151,18 +151,15 @@ div#firstMovieText {
 div#secondMovieText {
   margin-left: 2rem;
   margin-right: 3rem;
-  max-width: 62%;
 }
 
 div#thirdMovieText {
   margin-left: 3rem;
-  max-width: 62%;
   margin-right: 4rem;
 }
 
 div#fourdMovieText {
   margin-left: 2rem;
-  max-width: 62%;
   margin-right: 3rem;
 }
 
