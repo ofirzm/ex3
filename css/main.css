@@ -194,6 +194,22 @@ div#fourdMovieText {
   margin-right: 5rem;
 }
 
+@media only screen and (max-width: 480px) {
+  p#navText {
+    font-size: 12px;
+    width: 70%;
+    margin-left: 9rem;
+  }
+  #firstMovieText,
+  #secondMovieText,
+  #thirdMovie,
+  #fourdMovieText {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1rem;
+  }
+}
+
 @media only screen and (max-width: 840px) {
   #firstMovie,
   #secondMovie,
