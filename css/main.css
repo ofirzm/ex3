@@ -143,7 +143,7 @@ p.movieDetail {
   background-size: cover, 6rem;
   background-blend-mode: overlay;
   background-position: center 4rem, top left;
-  background-position-y: 4rem, -2rem;
+  background-position-y: 4rem, -1rem;
   background-position-x: 0rem, 0rem;
 }
 #fourdMovie {
@@ -151,6 +151,9 @@ p.movieDetail {
   background-repeat: no-repeat;
   background-size: cover, 6rem;
   background-blend-mode: overlay;
+  background-position: center 4rem, top left;
+  background-position-y: 4rem, -2rem;
+  background-position-x: 0rem, 0rem;
 }
 div#firstMovieText {
   margin-left: 3rem;
