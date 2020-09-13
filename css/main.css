@@ -202,4 +202,7 @@ div#fourdMovieText {
   #fourdMovie {
     height: 400px;
   }
+  .grid-container {
+    grid-template-columns: auto;
+  }
 }
