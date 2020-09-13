@@ -204,13 +204,16 @@ div#fourdMovieText {
   .grid-container {
     grid-template-columns: auto;
   }
-  .grid-container-footer {
-    grid-template-columns: auto;
-  }
+
   p#navText {
     font-size: 15px;
     text-align: center;
     width: 60%;
     margin-left: 11rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .grid-container-footer {
+    grid-template-columns: auto;
   }
 }
