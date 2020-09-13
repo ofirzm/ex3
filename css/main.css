@@ -1,235 +1,243 @@
 body {
-  background-image: url("../img/BGstars1.jpg");
-  background-size: contain;
+    background-image: url("../img/BGstars1.jpg");
+    background-size: contain;
 }
 
 .leftImage {
-  width: 99%;
-  margin-left: 0.8rem;
-  margin-top: -5rem;
+    width: 99%;
+    margin-left: 0.8rem;
+    margin-top: -5rem;
 }
 
 .rightImage {
-  width: 99%;
-  margin-right: 0.8rem;
-  margin-top: -5rem;
+    width: 99%;
+    margin-right: 0.8rem;
+    margin-top: -5rem;
 }
 
 .grid-container h1 {
-  display: inline;
-  margin-left: 7rem;
+    display: inline;
+    margin-left: 7rem;
 }
 
 #secondMovie .top-left {
-  margin-left: 58rem;
-  top: 46rem;
+    margin-left: 58rem;
+    top: 46rem;
 }
 
 #thirdMovie .top-left {
-  top: 86rem;
+    top: 86rem;
 }
 
 #fourdMovie .top-left {
-  top: 127rem;
-  margin-left: 58rem;
+    top: 127rem;
+    margin-left: 58rem;
 }
 
 #logoText {
-  color: #7e65ac;
-  float: right;
-  font-weight: bold;
-  font-size: 2rem;
-  font-family: sans-serif;
-  margin-right: 1rem;
+    color: #7e65ac;
+    float: right;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin-right: 1rem;
 }
 
 .logo img {
-  width: 13rem;
-  margin-top: 0.5rem;
+    width: 13rem;
+    margin-top: 0.5rem;
 }
 
 #bottomNav {
-  background-color: #7f68ae;
-  width: 100%;
-  height: 2.7rem;
-  margin-top: -3.1rem;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 1.3rem;
-  color: white;
+    background-color: #7f68ae;
+    width: 100%;
+    height: 2.7rem;
+    margin-top: -3.1rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    color: white;
 }
 
 .grid-container {
-  display: grid;
-  margin-top: 5rem;
-  height: 100%;
-  align-content: center;
-  grid-template-columns: 50% 50%;
-  grid-gap: 10px;
-  padding: 10px;
-  color: white;
+    display: grid;
+    margin-top: 5rem;
+    height: 100%;
+    align-content: center;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    padding: 10px;
+    color: white;
 }
 
-.grid-container > div {
-  padding: 20px 0;
+.grid-container>div {
+    padding: 20px 0;
 }
 
 #footer {
-  grid-template-columns: 100% auto;
+    grid-template-columns: 100% auto;
 }
 
 #blackDiv {
-  background-color: green;
+    background-color: green;
 }
 
 h4 {
-  font-weight: bold;
-  color: white;
-  font-size: 1.5rem;
-  margin-top: 16px;
-  font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 16px;
+    font-family: sans-serif;
 }
 
 p.movieDetail {
-  margin-top: -19px;
-  line-height: 1.7;
+    margin-top: -19px;
+    line-height: 1.7;
 }
 
 .square_btn {
-  display: inline-block;
-  padding: 7px 20px;
-  margin-top: 1rem;
-  border-radius: 25px;
-  text-decoration: none;
-  color: #fff;
-  background-image: -webkit-linear-gradient(45deg, #ffc107 0%, #ff8b5f 100%);
-  background-image: linear-gradient(45deg, #636363 0%, #777777 100%);
-  transition: 0.4s;
+    display: inline-block;
+    padding: 7px 20px;
+    margin-top: 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #ffc107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #636363 0%, #777777 100%);
+    transition: 0.4s;
 }
 
 .square_btn:hover {
-  background-image: -webkit-linear-gradient(45deg, #ffc107 0%, #f76a35 100%);
-  background-image: linear-gradient(45deg, #3d2672 0%, #3d2672 100%);
+    background-image: -webkit-linear-gradient(45deg, #ffc107 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #3d2672 0%, #3d2672 100%);
 }
 
 #firstMovie,
 #secondMovie,
 #thirdMovie,
-#fourdMovie {
-}
+#fourdMovie {}
+
 #firstMovie {
-  background-image: url(/ex3/img/firstMovie.png), url(/ex3/img/no1.png);
-  background-repeat: no-repeat;
-  background-size: cover, 6rem;
-  background-position: center 4rem, top left;
-  background-position-y: 4rem, -2rem;
-  background-position-x: 0rem, 0rem;
-  background-blend-mode: overlay;
+    background-image: url(/ex3/img/firstMovie.png), url(/ex3/img/no1.png);
+    background-repeat: no-repeat;
+    background-size: cover, 6rem;
+    background-position: center 4rem, top left;
+    background-position-y: 4rem, -2rem;
+    background-position-x: 0rem, 0rem;
+    background-blend-mode: overlay;
 }
+
 #secondMovie {
-  background-image: url(/ex3/img/secondMovie.jpg), url(/ex3/img/no2.png);
-  background-repeat: no-repeat;
-  background-size: cover, 6rem;
-  background-position-y: 4rem, -1rem !important;
-  background-position-x: 0rem, 0rem;
-  background-blend-mode: overlay;
-  background-position: center 4rem, top left;
+    background-image: url(/ex3/img/secondMovie.jpg), url(/ex3/img/no2.png);
+    background-repeat: no-repeat;
+    background-size: cover, 6rem;
+    background-position-y: 4rem, -1rem !important;
+    background-position-x: 0rem, 0rem;
+    background-blend-mode: overlay;
+    background-position: center 4rem, top left;
 }
+
 #thirdMovie {
-  background-image: url(/ex3/img/thiredMovie.jpg), url(/ex3/img/no3.png);
-  background-repeat: no-repeat;
-  background-size: cover, 6rem;
-  background-blend-mode: overlay;
-  background-position: center 4rem, top left;
-  background-position-y: 4rem, -1rem;
-  background-position-x: 0rem, 0rem;
+    background-image: url(/ex3/img/thiredMovie.jpg), url(/ex3/img/no3.png);
+    background-repeat: no-repeat;
+    background-size: cover, 6rem;
+    background-blend-mode: overlay;
+    background-position: center 4rem, top left;
+    background-position-y: 4rem, -1rem;
+    background-position-x: 0rem, 0rem;
 }
+
 #fourdMovie {
-  background-image: url(/ex3/img/fourMovie.jpg), url(/ex3/img/no4.png);
-  background-repeat: no-repeat;
-  background-size: cover, 6rem;
-  background-blend-mode: overlay;
-  background-position: center 4rem, top left;
-  background-position-y: 4rem, -2rem;
-  background-position-x: 0rem, 0rem;
+    background-image: url(/ex3/img/fourMovie.jpg), url(/ex3/img/no4.png);
+    background-repeat: no-repeat;
+    background-size: cover, 6rem;
+    background-blend-mode: overlay;
+    background-position: center 4rem, top left;
+    background-position-y: 4rem, -2rem;
+    background-position-x: 0rem, 0rem;
 }
+
 div#firstMovieText {
-  margin-left: 3rem;
-  margin-right: 4rem;
+    margin-left: 3rem;
+    margin-right: 4rem;
 }
 
 div#secondMovieText {
-  margin-left: 2rem;
-  margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
 }
 
 div#thirdMovieText {
-  margin-left: 3rem;
-  margin-right: 4rem;
+    margin-left: 3rem;
+    margin-right: 4rem;
 }
 
 div#fourdMovieText {
-  margin-left: 2rem;
-  margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
 }
 
 .grid-container-footer {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
-  border-top: 0.5px solid;
-  padding: 10px;
-  color: #b082f9;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    border-top: 0.5px solid;
+    padding: 10px;
+    color: #b082f9;
 }
 
-.grid-container-footer > div {
-  text-align: left;
-  padding: 5px 80px;
+.grid-container-footer>div {
+    text-align: left;
+    padding: 5px 80px;
 }
 
 .grid-container-footer h2 {
-  color: white;
-  font-family: sans-serif;
-  text-align: center;
-  margin-right: 5rem;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-right: 5rem;
 }
 
 @media only screen and (max-width: 480px) {
-  p#navText {
-    font-size: 12px;
-    width: 70%;
-    margin-left: 9rem;
-  }
-  #firstMovieText,
-  #secondMovieText,
-  #thirdMovie,
-  #fourdMovieText {
-    margin-left: 0;
-    margin-right: 0;
-    padding: 1rem;
-  }
+    p#navText {
+        font-size: 12px;
+        width: 70%;
+        margin-left: 9rem;
+    }
+
+    #firstMovieText,
+    #secondMovieText,
+    #thirdMovie,
+    #fourdMovieText {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 1rem;
+    }
 }
 
 @media only screen and (max-width: 840px) {
-  #firstMovie,
-  #secondMovie,
-  #thirdMovie,
-  #fourdMovie {
-    height: 400px;
-  }
-  .grid-container {
-    grid-template-columns: auto;
-  }
 
-  p#navText {
-    font-size: 15px;
-    text-align: center;
-    width: 60%;
-    margin-left: 11rem;
-  }
+    #firstMovie,
+    #secondMovie,
+    #thirdMovie,
+    #fourdMovie {
+        height: 400px;
+    }
+
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    p#navText {
+        font-size: 15px;
+        text-align: center;
+        width: 60%;
+        margin-left: 11rem;
+    }
 }
+
 @media only screen and (max-width: 1024px) {
-  .grid-container-footer {
-    grid-template-columns: auto;
-  }
+    .grid-container-footer {
+        grid-template-columns: auto;
+    }
 }
