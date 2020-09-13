@@ -129,7 +129,21 @@ p.movieDetail {
   background-size: contain;
   background-position: center 5rem;
 }
-
+#secondMovie {
+  background-image: url(/ex3/img/secondMovie.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#thirdMovie {
+  background-image: url(/ex3/img/thiredMovie.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#fourdMovie {
+  background-image: url(/ex3/img/fourMovie.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 div#firstMovieText {
   margin-left: 3rem;
   margin-right: 4rem;
