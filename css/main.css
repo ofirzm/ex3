@@ -132,7 +132,10 @@ p.movieDetail {
   background-image: url(/ex3/img/secondMovie.jpg), url(/ex3/img/no2.png);
   background-repeat: no-repeat;
   background-size: cover, 6rem;
+  background-position-y: 4rem, -1rem !important;
+  background-position-x: 0rem, 0rem;
   background-blend-mode: overlay;
+  background-position: center 4rem, top left;
 }
 #thirdMovie {
   background-image: url(/ex3/img/thiredMovie.jpg), url(/ex3/img/no3.png);
