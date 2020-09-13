@@ -122,7 +122,6 @@ p.movieDetail {
   background-image: url(/ex3/img/firstMovie.png), url(/ex3/img/no1.png);
   background-repeat: no-repeat;
   background-size: cover, 6rem;
-  background-blend-mode: overlay;
   background-position: center 4rem, top left;
   background-position-y: 4rem, -2rem;
   background-position-x: 0rem, 0rem;
@@ -194,4 +193,13 @@ div#fourdMovieText {
   font-family: sans-serif;
   text-align: center;
   margin-right: 5rem;
+}
+
+@media only screen and (max-width: 840px) {
+  #firstMovie,
+  #secondMovie,
+  #thirdMovie,
+  #fourdMovie {
+    height: 400px;
+  }
 }
