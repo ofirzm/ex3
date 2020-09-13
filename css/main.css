@@ -123,26 +123,25 @@ p.movieDetail {
   background-image: linear-gradient(45deg, #3d2672 0%, #3d2672 100%);
 }
 
-#firstMovie {
-  background-image: url(/ex3/img/firstMovie.jpg);
+#firstMovie,
+#secondMovie,
+#thirdMovie,
+#fourdMovie {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center 5rem;
 }
+#firstMovie {
+  background-image: url(/ex3/img/firstMovie.jpg);
+}
 #secondMovie {
   background-image: url(/ex3/img/secondMovie.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 #thirdMovie {
   background-image: url(/ex3/img/thiredMovie.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 #fourdMovie {
   background-image: url(/ex3/img/fourMovie.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 div#firstMovieText {
   margin-left: 3rem;
