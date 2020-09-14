@@ -70,7 +70,7 @@ body {
   color: white;
 }
 
-.grid-container > div {
+.grid-container>div {
   padding: 20px 0;
 }
 
@@ -115,8 +115,7 @@ p.movieDetail {
 #firstMovie,
 #secondMovie,
 #thirdMovie,
-#fourdMovie {
-}
+#fourdMovie {}
 
 #firstMovie {
   background-image: url(/ex3/img/firstMovie.png), url(/ex3/img/no1.png);
@@ -187,7 +186,7 @@ div#fourdMovieText {
   color: #b082f9;
 }
 
-.grid-container-footer > div {
+.grid-container-footer>div {
   text-align: left;
   padding: 5px 80px;
 }
@@ -201,9 +200,7 @@ div#fourdMovieText {
 
 @media only screen and (max-width: 480px) {
   p#navText {
-    font-size: 12px;
-    width: 70%;
-    margin-left: 9rem;
+    display: none;
   }
 
   #firstMovieText,
@@ -212,11 +209,12 @@ div#fourdMovieText {
   #fourdMovieText {
     margin-left: 0;
     margin-right: 0;
-    padding: 1rem;
+    padding: 0px;
   }
 }
 
 @media only screen and (max-width: 840px) {
+
   #firstMovie,
   #secondMovie,
   #thirdMovie,
@@ -241,6 +239,7 @@ div#fourdMovieText {
     grid-template-columns: auto;
   }
 }
+
 @media only screen and (min-width: 1441px) {
   .grid-container {
     grid-template-rows: 600px 600px 600px 600px auto;
